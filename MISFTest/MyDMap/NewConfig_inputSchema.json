@@ -1,0 +1,287 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "attributes" : {
+      "id" : "http://wso2jsonschema.org/attributes",
+      "type" : "object",
+      "properties" : {
+        "type" : {
+          "id" : "http://wso2jsonschema.org/attributes/type",
+          "type" : "string"
+        },
+        "url" : {
+          "id" : "http://wso2jsonschema.org/attributes/url",
+          "type" : "string"
+        }
+      }
+    },
+    "Id" : {
+      "id" : "http://wso2jsonschema.org/Id",
+      "type" : "string"
+    },
+    "IsDeleted" : {
+      "id" : "http://wso2jsonschema.org/IsDeleted",
+      "type" : "boolean"
+    },
+    "MasterRecordId" : {
+      "id" : "http://wso2jsonschema.org/MasterRecordId",
+      "type" : "string"
+    },
+    "Name" : {
+      "id" : "http://wso2jsonschema.org/Name",
+      "type" : "string"
+    },
+    "Type" : {
+      "id" : "http://wso2jsonschema.org/Type",
+      "type" : "string"
+    },
+    "ParentId" : {
+      "id" : "http://wso2jsonschema.org/ParentId",
+      "type" : "string"
+    },
+    "BillingStreet" : {
+      "id" : "http://wso2jsonschema.org/BillingStreet",
+      "type" : "string"
+    },
+    "BillingCity" : {
+      "id" : "http://wso2jsonschema.org/BillingCity",
+      "type" : "string"
+    },
+    "BillingState" : {
+      "id" : "http://wso2jsonschema.org/BillingState",
+      "type" : "string"
+    },
+    "BillingPostalCode" : {
+      "id" : "http://wso2jsonschema.org/BillingPostalCode",
+      "type" : "string"
+    },
+    "BillingCountry" : {
+      "id" : "http://wso2jsonschema.org/BillingCountry",
+      "type" : "string"
+    },
+    "BillingLatitude" : {
+      "id" : "http://wso2jsonschema.org/BillingLatitude",
+      "type" : "string"
+    },
+    "BillingLongitude" : {
+      "id" : "http://wso2jsonschema.org/BillingLongitude",
+      "type" : "string"
+    },
+    "BillingGeocodeAccuracy" : {
+      "id" : "http://wso2jsonschema.org/BillingGeocodeAccuracy",
+      "type" : "string"
+    },
+    "BillingAddress" : {
+      "id" : "http://wso2jsonschema.org/BillingAddress",
+      "type" : "string"
+    },
+    "ShippingStreet" : {
+      "id" : "http://wso2jsonschema.org/ShippingStreet",
+      "type" : "string"
+    },
+    "ShippingCity" : {
+      "id" : "http://wso2jsonschema.org/ShippingCity",
+      "type" : "string"
+    },
+    "ShippingState" : {
+      "id" : "http://wso2jsonschema.org/ShippingState",
+      "type" : "string"
+    },
+    "ShippingPostalCode" : {
+      "id" : "http://wso2jsonschema.org/ShippingPostalCode",
+      "type" : "string"
+    },
+    "ShippingCountry" : {
+      "id" : "http://wso2jsonschema.org/ShippingCountry",
+      "type" : "string"
+    },
+    "ShippingLatitude" : {
+      "id" : "http://wso2jsonschema.org/ShippingLatitude",
+      "type" : "string"
+    },
+    "ShippingLongitude" : {
+      "id" : "http://wso2jsonschema.org/ShippingLongitude",
+      "type" : "string"
+    },
+    "ShippingGeocodeAccuracy" : {
+      "id" : "http://wso2jsonschema.org/ShippingGeocodeAccuracy",
+      "type" : "string"
+    },
+    "ShippingAddress" : {
+      "id" : "http://wso2jsonschema.org/ShippingAddress",
+      "type" : "string"
+    },
+    "Phone" : {
+      "id" : "http://wso2jsonschema.org/Phone",
+      "type" : "string"
+    },
+    "Fax" : {
+      "id" : "http://wso2jsonschema.org/Fax",
+      "type" : "string"
+    },
+    "AccountNumber" : {
+      "id" : "http://wso2jsonschema.org/AccountNumber",
+      "type" : "string"
+    },
+    "Website" : {
+      "id" : "http://wso2jsonschema.org/Website",
+      "type" : "string"
+    },
+    "PhotoUrl" : {
+      "id" : "http://wso2jsonschema.org/PhotoUrl",
+      "type" : "string"
+    },
+    "Sic" : {
+      "id" : "http://wso2jsonschema.org/Sic",
+      "type" : "string"
+    },
+    "Industry" : {
+      "id" : "http://wso2jsonschema.org/Industry",
+      "type" : "string"
+    },
+    "AnnualRevenue" : {
+      "id" : "http://wso2jsonschema.org/AnnualRevenue",
+      "type" : "number"
+    },
+    "NumberOfEmployees" : {
+      "id" : "http://wso2jsonschema.org/NumberOfEmployees",
+      "type" : "string"
+    },
+    "Ownership" : {
+      "id" : "http://wso2jsonschema.org/Ownership",
+      "type" : "string"
+    },
+    "TickerSymbol" : {
+      "id" : "http://wso2jsonschema.org/TickerSymbol",
+      "type" : "string"
+    },
+    "Description" : {
+      "id" : "http://wso2jsonschema.org/Description",
+      "type" : "string"
+    },
+    "Rating" : {
+      "id" : "http://wso2jsonschema.org/Rating",
+      "type" : "string"
+    },
+    "Site" : {
+      "id" : "http://wso2jsonschema.org/Site",
+      "type" : "string"
+    },
+    "OwnerId" : {
+      "id" : "http://wso2jsonschema.org/OwnerId",
+      "type" : "string"
+    },
+    "CreatedDate" : {
+      "id" : "http://wso2jsonschema.org/CreatedDate",
+      "type" : "string"
+    },
+    "CreatedById" : {
+      "id" : "http://wso2jsonschema.org/CreatedById",
+      "type" : "string"
+    },
+    "LastModifiedDate" : {
+      "id" : "http://wso2jsonschema.org/LastModifiedDate",
+      "type" : "string"
+    },
+    "LastModifiedById" : {
+      "id" : "http://wso2jsonschema.org/LastModifiedById",
+      "type" : "string"
+    },
+    "SystemModstamp" : {
+      "id" : "http://wso2jsonschema.org/SystemModstamp",
+      "type" : "string"
+    },
+    "LastActivityDate" : {
+      "id" : "http://wso2jsonschema.org/LastActivityDate",
+      "type" : "string"
+    },
+    "LastViewedDate" : {
+      "id" : "http://wso2jsonschema.org/LastViewedDate",
+      "type" : "string"
+    },
+    "LastReferencedDate" : {
+      "id" : "http://wso2jsonschema.org/LastReferencedDate",
+      "type" : "string"
+    },
+    "Jigsaw" : {
+      "id" : "http://wso2jsonschema.org/Jigsaw",
+      "type" : "string"
+    },
+    "JigsawCompanyId" : {
+      "id" : "http://wso2jsonschema.org/JigsawCompanyId",
+      "type" : "string"
+    },
+    "CleanStatus" : {
+      "id" : "http://wso2jsonschema.org/CleanStatus",
+      "type" : "string"
+    },
+    "AccountSource" : {
+      "id" : "http://wso2jsonschema.org/AccountSource",
+      "type" : "string"
+    },
+    "DunsNumber" : {
+      "id" : "http://wso2jsonschema.org/DunsNumber",
+      "type" : "string"
+    },
+    "Tradestyle" : {
+      "id" : "http://wso2jsonschema.org/Tradestyle",
+      "type" : "string"
+    },
+    "NaicsCode" : {
+      "id" : "http://wso2jsonschema.org/NaicsCode",
+      "type" : "string"
+    },
+    "NaicsDesc" : {
+      "id" : "http://wso2jsonschema.org/NaicsDesc",
+      "type" : "string"
+    },
+    "YearStarted" : {
+      "id" : "http://wso2jsonschema.org/YearStarted",
+      "type" : "string"
+    },
+    "SicDesc" : {
+      "id" : "http://wso2jsonschema.org/SicDesc",
+      "type" : "string"
+    },
+    "DandbCompanyId" : {
+      "id" : "http://wso2jsonschema.org/DandbCompanyId",
+      "type" : "string"
+    },
+    "OperatingHoursId" : {
+      "id" : "http://wso2jsonschema.org/OperatingHoursId",
+      "type" : "string"
+    },
+    "CustomerPriority__c" : {
+      "id" : "http://wso2jsonschema.org/CustomerPriority__c",
+      "type" : "string"
+    },
+    "SLA__c" : {
+      "id" : "http://wso2jsonschema.org/SLA__c",
+      "type" : "string"
+    },
+    "Active__c" : {
+      "id" : "http://wso2jsonschema.org/Active__c",
+      "type" : "string"
+    },
+    "NumberofLocations__c" : {
+      "id" : "http://wso2jsonschema.org/NumberofLocations__c",
+      "type" : "string"
+    },
+    "UpsellOpportunity__c" : {
+      "id" : "http://wso2jsonschema.org/UpsellOpportunity__c",
+      "type" : "string"
+    },
+    "SLASerialNumber__c" : {
+      "id" : "http://wso2jsonschema.org/SLASerialNumber__c",
+      "type" : "string"
+    },
+    "SLAExpirationDate__c" : {
+      "id" : "http://wso2jsonschema.org/SLAExpirationDate__c",
+      "type" : "string"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/sftest" name="SFTestAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET">
+        <inSequence>
+            <payloadFactory media-type="json">
+                <format>{"attributes":{"type":"Account", "url":"/services/data/v48.0/sobjects/Account/0013t00002e4USmAAM"}, "Id":"0013t00002e4USmAAM", "IsDeleted":false, "MasterRecordId":null, "Name":"Nike", "Type":"Prospect", "ParentId":null, "BillingStreet":null, "BillingCity":null, "BillingState":null, "BillingPostalCode":null, "BillingCountry":null, "BillingLatitude":null, "BillingLongitude":null, "BillingGeocodeAccuracy":null, "BillingAddress":null, "ShippingStreet":null, "ShippingCity":null, "ShippingState":null, "ShippingPostalCode":null, "ShippingCountry":null, "ShippingLatitude":null, "ShippingLongitude":null, "ShippingGeocodeAccuracy":null, "ShippingAddress":null, "Phone":null, "Fax":null, "AccountNumber":"0012345", "Website":"nike.com", "PhotoUrl":"/services/images/photo/0013t00002e4USmAAM", "Sic":null, "Industry":"Apparel", "AnnualRevenue":1.0E+7, "NumberOfEmployees":null, "Ownership":"Public", "TickerSymbol":null, "Description":null, "Rating":"Hot", "Site":null, "OwnerId":"0053t00000AMGNjAAP", "CreatedDate":"2023-02-06T18:30:09.000+0000", "CreatedById":"0053t00000AMGNjAAP", "LastModifiedDate":"2023-02-06T18:30:09.000+0000", "LastModifiedById":"0053t00000AMGNjAAP", "SystemModstamp":"2023-02-06T18:30:09.000+0000", "LastActivityDate":null, "LastViewedDate":"2023-02-07T18:10:18.000+0000", "LastReferencedDate":"2023-02-07T18:10:18.000+0000", "Jigsaw":null, "JigsawCompanyId":null, "CleanStatus":"Pending", "AccountSource":null, "DunsNumber":null, "Tradestyle":null, "NaicsCode":null, "NaicsDesc":null, "YearStarted":null, "SicDesc":null, "DandbCompanyId":null, "OperatingHoursId":null, "CustomerPriority__c":null, "SLA__c":null, "Active__c":null, "NumberofLocations__c":null, "UpsellOpportunity__c":null, "SLASerialNumber__c":null, "SLAExpirationDate__c":null}</format>
+                <args/>
+            </payloadFactory>
+            <log level="full"/>
+            <datamapper config="gov:datamapper/NewConfig.dmc" inputSchema="gov:datamapper/NewConfig_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/NewConfig_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/NewConfig_xsltStyleSheet.xml"/>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="salesforcerest-connector" groupId="com.example.lib" version="1.1.3" type="synapse/lib" serverRole="EnterpriseServiceBus">
+        <file>salesforcerest-connector-1.1.3.zip</file>
+    </artifact>
+</artifacts>

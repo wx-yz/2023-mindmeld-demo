@@ -1,0 +1,8 @@
+map_S_root_S_Response = function(){ 
+var outputResponse={};
+
+outputResponse =  {};
+outputResponse.ID = inputroot.Id;
+return outputResponse;
+};
+
