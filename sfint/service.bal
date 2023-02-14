@@ -2,7 +2,7 @@ import ballerina/http;
 import ballerinax/salesforce;
 
 function transform(AccountInfo accountInfo) returns NewAccount => {
-    AccountName: accountInfo.Name,
+    AccountName: accountInfo.Name.toUpperAscii(),
     Id: accountInfo.Id
 };
 
@@ -104,6 +104,7 @@ salesforce:Client salesforceEp = check new (sfConfig);
 service / on new http:Listener(9090) {
 
     # Use salesforce connector in ballerina 
+    # + return - Transformed NewAccount record
     resource function get info() returns NewAccount|error {
         json res = check salesforceEp->getAccountById("0013t00002e4USmAAM");
         AccountInfo ainfo = check res.cloneWithType(AccountInfo);
