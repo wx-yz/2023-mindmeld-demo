@@ -2,8 +2,8 @@ import ballerina/http;
 import ballerina/io;
 
 configurable string host = "https://ws-api.toasttab.com";
-configurable string clientId = "***REMOVED***";
-configurable string secret = "***REMOVED***";
+configurable string clientId = ?;
+configurable string secret = ?;
 
 type Token record {
     string tokenType;
